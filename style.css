@@ -1,0 +1,547 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins' , 'sans-serif';
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
+
+a{
+    text-decoration: none;
+    color: #5a5a5a;
+       
+}
+img{
+    cursor: pointer;
+}
+.flex-div{
+    display: flex;
+    align-items: center;
+}
+nav{
+    padding: 1rem 2%;
+    justify-content: space-between;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 2);
+    background: #fff;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+/* ------------navright----------- */
+
+.nav-right img{
+width: 2.5rem;
+margin-right: 2.5rem;
+}
+.nav-right .user-icon{
+width: 5rem;
+border-radius: 50%;
+margin-right: .5rem;
+}
+/* ----------------nav-left----------------- */
+.nav-left .logo{
+    width: 8rem;
+    border-radius: 50%;
+    margin-right: 0; 
+}
+h1{
+    font-size: 4rem;
+    color: rgb(193, 50, 25);
+}
+/* -------------nav-middle-------------- */
+.nav-middle{
+    font-size: 2rem;
+    font-weight: 700;
+    
+}
+.nav-middle :hover{
+    color: blue;
+    font-size: 2.5rem;
+}
+.nav-middle, .Classes, .About-us, .About-me, .Channels {
+    margin-right: 1rem;
+    margin-left: 10rem;
+    color: rgb(56, 55, 54);
+    
+}
+
+
+
+/*-----------------------sidebar------------------------*/
+.sidebar{
+    background: #fff;
+    width: 16%;
+    height: 100ph;
+    position: fixed;
+    top: 0;
+    padding-left: 2%;
+    padding-top: 8rem;
+    margin-top:3rem;
+    
+
+}
+/* --------------shortlinks------------- */
+.shortcut-links a{
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+    width: fit-content;
+    flex-wrap: wrap;
+   
+
+}
+.sidebar h3{
+    margin-bottom: 2rem;
+    color: black;
+    margin-top: 2rem;
+}
+
+
+.shortcut-links a p{
+    color: rgb(126, 4, 241);
+    font-weight: 700;
+}
+.shortcut-links a :hover{
+    font-size: 1.5rem;
+    color: #f17100;
+}
+.sidebar hr{
+    border: 0;
+    height: .1rem;
+    background: #ccc;
+    width: 85%;
+}
+.sidebar h3:hover{
+    color: blue;
+    font-size: 2rem;
+    
+}
+/* -----------Social-media---------- */
+.social-media{
+    display: flex;
+    align-items: center;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+    width: fit-content;
+    flex-wrap: wrap;
+}
+.social-media a p{
+    color: rgb(31, 31, 30);
+    font-weight: 700;
+}
+
+
+
+/* ----------more----------- */
+
+.sidebar .more{
+    display: flex;
+    align-items: center;
+    margin-bottom: 2rem;
+    width: fit-content;
+    position: scroll;
+    height: auto;
+    flex-wrap: wrap;
+    
+    
+}
+.more a p {
+    color: rgb(126, 4, 241);
+    font-weight: 700;
+}
+.more a p:hover{
+    font-size: 1.5rem;
+    color: #f17100;
+}
+/* --------------------sidebar-END------------------------- */
+
+
+
+
+
+
+/* -----------main----------- */
+
+.container{
+    background: #636161;
+    padding-left: 17%;
+    padding-right: 2%;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+
+}
+.large-container{
+    padding-left: 7%;
+}
+.banner{
+    width: 100%;
+
+}
+.banner img{
+    width: 100%;
+    border-radius: .8rem;
+}
+
+/* -------------footer-icons--------------- */
+
+.icons{
+    background-color: #312f2f;
+    height: 6rem;
+}
+.icons a{
+    align-items: center;
+    text-decoration: none;
+    color: rgb(48, 209, 33);
+    margin-left: .5rem;
+}
+.icons ion-icon {
+    color: rgb(105, 210, 24);
+    font-size: 3rem;
+    padding-left: 5rem;
+    padding-top: .5rem;
+    transition: 0.2s ease;
+    margin-left: 3rem;
+    margin-bottom: -1rem;
+    
+}
+.icons, ion-icon:hover{
+    color: #ff7200;
+}
+
+.text{
+    background-color: #312f2f;
+    margin-top: 0rem;
+    text-align: center;
+    align-items: center;
+    color: #f17100;
+    font-weight: 700;
+    font-size: 2.5rem;
+}
+.icons a {
+    font-size: large;
+    
+}
+.icons .iconify :hover{
+    color: #f17100;
+}
+.icons .iconify{
+    margin-bottom: -1rem;
+    margin-left: 5rem;
+    
+}
+
+/* ----------------------About-us----------------- */
+.about pre{
+    font-size: 2.5rem;
+    text-align: left;
+    margin-top: 2rem;
+    margin-left: 25rem;
+}
+.contact-us{
+    font-size: 2.5rem;
+    text-align: center;
+    margin-right: 50rem;
+    margin-left: 50rem;
+    margin-top: 6rem;
+    
+}
+.contact-us hr{
+    align-items: right;
+    height: .5rem;
+    
+
+}
+.contact-us :hover{
+    color: #f17100;
+}
+/* ----------chapter-list--------------- */
+.list{
+    align-items: left;
+    font-size: larger;
+    font-weight: 600;
+    margin-left: 35rem;
+    margin-top: 3rem;
+}
+.list h3{
+    margin-top: 5rem;
+    text-align: left;
+    margin-left: 19.3rem;
+    font-size: 3rem;
+    margin-bottom: 2rem;
+}
+/* -------table------------- */
+table, tr, td, th{
+    border: .5rem solid;
+    border-color: #6c6c6c;
+    border-collapse: collapse;
+    padding: 1rem;
+    border-spacing: .5rem;
+}
+th{
+    background-color: rgb(175, 215, 236);
+    font-size: larger;
+    font-weight: 700;
+}
+
+td{
+    background-color: #e29856;
+    font-weight: 600;
+}
+.list a{
+    color: rgb(217, 221, 206);
+}
+.list a:hover{
+    color: blue;
+    font-weight: 2rem;
+    font-size: 2rem;
+
+}
+.list{
+    background-color: #cfcbcb;
+    margin-top: 5rem;
+}
+.btn1{
+    margin-left: 20rem;
+    border: 1.5rem solid #6e6d6b;
+    background-color: #6e6d6b;
+    margin-right: 2rem;
+    border-radius: 5%;
+    font-size: larger;
+    font-size: 600;
+    margin-bottom: 2rem;
+    border-width: 2rem;
+    padding: .5rem;
+}
+.btn2{
+    border: 1.5rem solid #6e6d6b;
+    background-color: #6e6d6b;
+    border-radius: 5%;
+    font-size: larger;
+    font-size: 600;
+    margin-bottom: 2rem;
+    border-width: 2rem;
+    padding: .5rem;
+    margin-right: 2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    
+}
+.btn3{
+    border: 1.5rem solid #6e6d6b;
+    background-color: #6e6d6b;
+    border-radius: 5%;
+    font-size: larger;
+    font-size: 600;
+    margin-bottom: 2rem;
+    border-width: 2rem;
+    padding: .5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+.chapters{
+    background-color: #cfcbcb;
+}
+.chapters  a{
+    font-size: 1.5rem;
+    margin-top: 1rem;
+    color: #0c0b0b;
+    text-align: left;
+    margin-left: 25rem;
+    padding: 1rem;
+}
+.chapters  a:hover{
+    font-size: 2rem;
+    background-color: #ffffff;
+    border-radius: 3rem;
+}
+.chapters  hr{
+      
+    height: 1rem;  
+    
+}
+/* -------------Calculator--------------- */
+
+
+.calculator {
+    max-width: 53rem;
+    background-color: #cfcbcb;
+    padding: 2rem;
+    border-radius: 1rem;
+    margin: 0rem auto;
+    margin-top: 0rem;
+
+    
+    }
+    
+    
+    input[type=text] {
+    width: 31.5rem;
+        height: 2.5rem;
+        border-radius: .5rem;
+        border: 0rem;
+        background-color: #333333;
+        color: #d9d9d9;
+        padding: 0 .5rem 0 .5rem;
+        margin: 0 0rem 1rem 8.4rem;
+    
+    }
+    
+    .calc-buttons {
+        display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+    }
+    
+    .button {
+       margin: .3rem;
+    width: 6.3rem;
+    border: none;
+    height: 2.5rem;
+    border-radius: .4rem;
+    color: #000000;
+    cursor: pointer;
+    }
+    
+    button:hover {
+      background-color: hsla(180, 100%, 40%, 0.3);
+      transition: .2s;
+    }
+    
+    
+    
+    
+    .functions-one {
+        width: 21rem;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+    
+    
+    .functions-two {
+    width: 28rem;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    
+    .triggers {
+        background-color: #ffc266;
+    }
+    
+    
+    
+    .numbers {
+        background-color: #999999;
+    }
+    
+    .basic-stuff {
+        background-color: #80d4ff;
+    }
+    
+    .complex-stuff {
+        background-color: #80ffff;
+    }
+    /* ---------class.html-css---------- */
+    .cls{
+        background-color: #cfcbcb;
+        margin-top: 5rem;
+        text-align: center;
+    }
+    .cls a{
+        color: rgb(217, 221, 206);
+    }
+    .cls a:hover{
+        color: blue;
+        font-weight: 2rem;
+        font-size: 2rem;
+    
+    }
+.cls1{
+    margin-left: 20rem;
+    border: 1.5rem solid #6e6d6b;
+    background-color: #6e6d6b;
+    margin-right: 2rem;
+    border-radius: 5%;
+    font-size: larger;
+    font-size: 600;
+    margin-bottom: 2rem;
+    border-width: 2rem;
+    padding: .5rem;
+}
+.cls2{
+    border: 1.5rem solid #6e6d6b;
+    background-color: #6e6d6b;
+    border-radius: 5%;
+    font-size: larger;
+    font-size: 600;
+    margin-bottom: 2rem;
+    border-width: 2rem;
+    padding: .5rem;
+    margin-right: 2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+
+}
+.cls3{
+    border: 1.5rem solid #6e6d6b;
+    background-color: #6e6d6b;
+    border-radius: 5%;
+    font-size: larger;
+    font-size: 600;
+    margin-bottom: 2rem;
+    border-width: 2rem;
+    padding: .5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+/* -----------video------ */
+.list-container h3{
+    margin-top: 1rem;
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 700;
+}
+.vid-list .thumbnail{
+    margin-top: 1rem;
+    width: 23%;
+    border-radius: .5rem;
+    margin-left: 2rem;
+    
+}
+
+.vid-info p{
+    margin-left: 2rem;
+    font-size: larger;
+    font-weight: 600;
+}
+
+@media(max-width:500px){
+    html{
+        font-size: 10%;
+    }
+    .iconify{
+        font-size: 10%;
+    }
+    
+    }
+@media(max-width:400px){
+    html{
+        font-size: 10%;
+    }
+    .iconify{
+        font-size: 10%;
+    }
+}
+@media(max-width:900px){
+    html{
+        font-size: 30%;
+    }
+    .iconify{
+        font-size: 30%;
+    }
+}
+
